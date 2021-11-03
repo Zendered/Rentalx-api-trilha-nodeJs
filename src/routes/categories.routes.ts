@@ -9,7 +9,6 @@ const upload = multer({
     dest: './tmp',
 })
 
-
 cateriesRoutes.post('/', (req, res) => {
     return createCategoryController.handle(req, res)
 })
